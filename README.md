@@ -1,5 +1,6 @@
 # Discord-Bot-Sil-Komudu
 
+```javascript
 module.exports = {
     name: 'sil',
     description: '',
@@ -13,3 +14,4 @@ module.exports = {
         message.channel.send(`${args[0]} Tane Mesaj Silindi.`).then(msg => msg.delete({timeout: 10000}));
     }
 }
+```
